@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3z1kd7tjwkJlVFjNtZts4iLwaa1d88gecQnw4EdE4ko=",
+  "Source": "MWSProductApp",
+  "BasePath": "_content/MWSProductApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
