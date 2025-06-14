@@ -20,5 +20,11 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
+   <ItemGroup>
+    <ProjectReference Include="..\MWSProductApp.Core\MWSProductApp.Core.csproj" />  
+    <ProjectReference Include="..\MWSProductApp.Contract\MWSProductApp.Contract.csproj" />
+    <ProjectReference Include="..\MWSProductApp.Infrastructure\MWSProductApp.Infrastructure.csproj" />  
+    <ProjectReference Include="..\MWSProductApp\MWSProductApp.csproj" />
+  </ItemGroup>
 
 </Project>
