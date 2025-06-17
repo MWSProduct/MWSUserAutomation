@@ -1,0 +1,6 @@
+D:\MWSProductWorkShop\MWSProduct\MWSProductApp\MWSProductApp.Contract\obj\Debug\net8.0\MWSProductApp.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\MWSProductWorkShop\MWSProduct\MWSProductApp\MWSProductApp.Contract\obj\Debug\net8.0\MWSProductApp.Contract.AssemblyInfoInputs.cache
+D:\MWSProductWorkShop\MWSProduct\MWSProductApp\MWSProductApp.Contract\obj\Debug\net8.0\MWSProductApp.Contract.AssemblyInfo.cs
+D:\MWSProductWorkShop\MWSProduct\MWSProductApp\MWSProductApp.Contract\obj\Debug\net8.0\MWSProductApp.Contract.csproj.CoreCompileInputs.cache
+D:\MWSProductWorkShop\MWSProduct\MWSProductApp\MWSProductApp.Contract\obj\Debug\net8.0\MWSProductApp.Contract.MvcApplicationPartsAssemblyInfo.cache
+D:\MWSProductWorkShop\MWSProduct\MWSProductApp\MWSProductApp.Contract\obj\Debug\net8.0\MWSProductApp.Contract.sourcelink.json

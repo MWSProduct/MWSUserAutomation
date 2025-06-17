@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MWSProductApp.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+071b924d122408570a9ea506122b84c97999ecde")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf25a74ef16a9692d9856eb0987f59b0911eaf84")]
 [assembly: System.Reflection.AssemblyProductAttribute("MWSProductApp.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MWSProductApp.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

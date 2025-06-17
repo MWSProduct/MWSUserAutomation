@@ -1,77 +1,32 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "Microsoft.AspNetCore.OpenApi/9.0.4": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.OpenApi": "1.6.17"
-        },
+    "net8.0": {
+      "MWSProductApp.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "related": ".xml"
-          }
+          "bin/placeholder/MWSProductApp.Contract.dll": {}
         },
         "runtime": {
-          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "related": ".xml"
-          }
+          "bin/placeholder/MWSProductApp.Contract.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "Microsoft.OpenApi/1.6.17": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
       }
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.OpenApi/9.0.4": {
-      "sha512": "GfZWPbZz1aAtEO3wGCkpeyRc0gzr/+VRHnUgY/YjqVPDlHbeKWCXw3IxKarQdo9myC2O1QBf652Mo50QqbXYRg==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.openapi/9.0.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll",
-        "lib/net9.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
-        "microsoft.aspnetcore.openapi.nuspec"
-      ]
-    },
-    "Microsoft.OpenApi/1.6.17": {
-      "sha512": "Le+kehlmrlQfuDFUt1zZ2dVwrhFQtKREdKBo+rexOwaCoYP0/qpgT9tLxCsZjsgR5Itk1UKPcbgO+FyaNid/bA==",
-      "type": "package",
-      "path": "microsoft.openapi/1.6.17",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/netstandard2.0/Microsoft.OpenApi.dll",
-        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
-        "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.1.6.17.nupkg.sha512",
-        "microsoft.openapi.nuspec"
-      ]
+    "MWSProductApp.Contract/1.0.0": {
+      "type": "project",
+      "path": "../MWSProductApp.Contract/MWSProductApp.Contract.csproj",
+      "msbuildProject": "../MWSProductApp.Contract/MWSProductApp.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.4"
+    "net8.0": [
+      "MWSProductApp.Contract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -90,15 +45,19 @@
         "C:\\Users\\vignesh.saravanan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "projectReferences": {}
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Contract\\MWSProductApp.Contract.csproj": {
+              "projectPath": "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Contract\\MWSProductApp.Contract.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -110,18 +69,11 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": {
-            "target": "Package",
-            "version": "[9.0.4, )"
-          }
-        },
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -141,7 +93,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

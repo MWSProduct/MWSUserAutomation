@@ -4,27 +4,27 @@
     "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Core\\MWSProductApp.Core.csproj": {}
   },
   "projects": {
-    "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Core\\MWSProductApp.Core.csproj": {
+    "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Contract\\MWSProductApp.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Core\\MWSProductApp.Core.csproj",
-        "projectName": "MWSProductApp.Core",
-        "projectPath": "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Core\\MWSProductApp.Core.csproj",
+        "projectUniqueName": "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Contract\\MWSProductApp.Contract.csproj",
+        "projectName": "MWSProductApp.Contract",
+        "projectPath": "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Contract\\MWSProductApp.Contract.csproj",
         "packagesPath": "C:\\Users\\vignesh.saravanan\\.nuget\\packages\\",
-        "outputPath": "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Core\\obj\\",
+        "outputPath": "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vignesh.saravanan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,18 +37,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[9.0.4, )"
-            }
-          },
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -68,7 +61,72 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Core\\MWSProductApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Core\\MWSProductApp.Core.csproj",
+        "projectName": "MWSProductApp.Core",
+        "projectPath": "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Core\\MWSProductApp.Core.csproj",
+        "packagesPath": "C:\\Users\\vignesh.saravanan\\.nuget\\packages\\",
+        "outputPath": "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vignesh.saravanan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Contract\\MWSProductApp.Contract.csproj": {
+                "projectPath": "D:\\MWSProductWorkShop\\MWSProduct\\MWSProductApp\\MWSProductApp.Contract\\MWSProductApp.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

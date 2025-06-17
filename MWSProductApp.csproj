@@ -11,6 +11,9 @@
   </PropertyGroup>
 
   <ItemGroup>   
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />   
+    <PackageReference Include="MediatR" Version="12.5.0" />   
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />   
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />   
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.6">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -18,13 +21,15 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
    <ItemGroup>
     <ProjectReference Include="..\MWSProductApp.Core\MWSProductApp.Core.csproj" />  
     <ProjectReference Include="..\MWSProductApp.Contract\MWSProductApp.Contract.csproj" />
     <ProjectReference Include="..\MWSProductApp.Infrastructure\MWSProductApp.Infrastructure.csproj" />  
-    <ProjectReference Include="..\MWSProductApp\MWSProductApp.csproj" />
+    <!-- <ProjectReference Include="..\MWSProductApp\MWSProductApp.csproj" /> -->
+    <ProjectReference Include="..\MWSProductApp.Common\MWSProductApp.Common.csproj" />  
   </ItemGroup>
 
 </Project>

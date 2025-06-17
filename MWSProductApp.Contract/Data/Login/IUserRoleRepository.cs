@@ -7,5 +7,6 @@ namespace MWSProductApp.Contract.Data.Login
     {
         Task<object> GetAllUserRoles();
         Task<object> GetUserRoleById(string userId);
+        void GenerateRole(string userId, string RoleId);
     }
 }

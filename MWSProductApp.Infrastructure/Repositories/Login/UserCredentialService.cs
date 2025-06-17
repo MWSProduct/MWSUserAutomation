@@ -4,8 +4,8 @@ using MWSProductApp.Contract.Data.Login;
 using MWSProductApp.Model;
 namespace MWSProductApp.Infrastructure.Repositories.Login;
 
-public class UserCredentialService: IUserCredentialsRepository
-{   
+public class UserCredentialService : IUserCredentialsRepository
+{
     public Task<MWSLogin> GetUserCredentials(string emailId)
     {
         throw new NotImplementedException();
@@ -19,5 +19,9 @@ public class UserCredentialService: IUserCredentialsRepository
     public Task<MWSSetPassword> SetUserPassword(MWSSetPassword mwsSetPassword)
     {
         throw new NotImplementedException();
+    }
+    public void GenerateUserCredentials(string emailId, MWSUserRegister mwsUserRegister)
+    {
+        
     }
 }
